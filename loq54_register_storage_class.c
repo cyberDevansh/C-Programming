@@ -1,0 +1,26 @@
+#include <stdio.h>
+#include <conio.h>
+int main()
+{
+    // to implement register storage class
+
+register int a=11;
+int b=17;
+printf("a=%d\nb=%d",a,b);//here value of a is stored in the cpu register
+
+
+
+    /*
+    ALL ABOUT REGISTER STORAGE CLASS
+    STORAGE :IN THE CPU REGISTER(YOU MAY NOT GET THE ADDRESS OF REGISTER USING ADDRESS OPERATOR(&) BECAUSE IT
+    MAY NOT HAVE MEMORY LOCATION) AND THESE ARE FASTER TO ACCESS.IT IS JUST A SUGGESTIN TO THE COMPILER ADN THE COMPILER MAY IGNORE IT
+   DEFAULT VALUE : GARBAGE
+   SCOPE:LOCAL TO THE BLOCK IN WHICH IT IS DECLARED
+   LIFETIME: TILL THE CONTROL REMAINS IN THE BLOCK(OR SAY IN THE BLOCK IT IS DECLARED)
+   INITIALIZATON:REGISTER KEYWORD
+
+    */
+
+    getch();
+    return 0;
+}
