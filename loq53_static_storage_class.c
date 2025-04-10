@@ -15,7 +15,7 @@ int main()
     */
     increment();
     increment();
-     increment();
+    increment();
     increment ();
     getch();
     return 0;

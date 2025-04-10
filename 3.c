@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 int main() {
-    FILE *fp = fopen("example_text.txt", "w");
+    FILE *fp = fopen("0.c", "r+");
     if (fp == NULL) {
         perror("Error opening file");
         return 1;

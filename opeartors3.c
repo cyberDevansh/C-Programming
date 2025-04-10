@@ -4,7 +4,7 @@ int main() {
     int a = 50;  // (0101 in binary)
     int result = a >> 1;  // (0010 in binary) = 2
     
-    printf("Result of a >> 1 = %d\nResult of a>>4=%d", result,a>>4);  
+    printf("Result of a >> 1 = %d\nResult of a >> 4= %d", result,a>>4);  
     return 0;
 }
 

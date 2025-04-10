@@ -18,6 +18,6 @@ int main() {
         putchar(' '); // Add a space between letters
     }
     putchar('\n');
-
+    printf("All Alphabets printed.");
     return 0;
 }

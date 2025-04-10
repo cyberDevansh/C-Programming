@@ -20,7 +20,7 @@ printf("Enter the student roll number:");
 scanf("%d",&data.roll_number);
  
 printf("You entered:");
-printf("\n\tRoll number:%d\n\tName=%s",data.roll_number,data.name); //  here name will be corrupted and give garbage value because at last we took input of roll number so only roll umber will get its space and name be will overwritten 
+printf("\n\tRoll number:%d\n\tName=%s",data.roll_number,data.name); //  here name will be corrupted and give garbage value because at last we took input of roll number so only roll number will get its space and name be will overwritten 
 // union only take larger space in two of them and only store one of them not both of them .
 
 getch();
